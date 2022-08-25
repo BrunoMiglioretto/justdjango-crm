@@ -9,5 +9,9 @@
 <body>
     <h1>Some page</h1> 
     <p>Say hi to this page!</p>
+    {% for lead in leads %}
+        <br>
+        {{ lead }}
+    {% endfor %}
 </body>
 </html>
